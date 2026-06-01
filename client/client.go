@@ -169,8 +169,5 @@ func GetObserve(ctx context.Context, home string, ly loclayout.Layout, path stri
 	if err := c.Get(ctx, path, &env); err != nil {
 		return err
 	}
-	if env.Topic != topic {
-		return fmt.Errorf("locdaemon/client: observe topic %q != %q", env.Topic, topic)
-	}
-	return env.Decode(dest)
+	return env.DecodeTopic(topic, dest)
 }

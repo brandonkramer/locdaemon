@@ -5,7 +5,7 @@ go 1.26.3
 require (
 	github.com/brandonkramer/filelock v0.1.0
 	github.com/brandonkramer/ipc v0.2.0
-	github.com/brandonkramer/message v0.1.0
+	github.com/brandonkramer/message v0.1.1
 	github.com/brandonkramer/poll v0.1.0
 	github.com/brandonkramer/svcroot v0.1.3
 	github.com/creachadair/jrpc2 v1.3.5
