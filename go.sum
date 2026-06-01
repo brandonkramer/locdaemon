@@ -124,8 +124,6 @@ github.com/brandonkramer/ipc v0.2.0 h1:LMnP7evM12PB8e+aUGMfP3/yOAFh5BSlCWPUMIiNh
 github.com/brandonkramer/ipc v0.2.0/go.mod h1:okAaUUUTNJQgpWqCcUTn70rTmntcsSpKwpuaNwhQk1U=
 github.com/brandonkramer/jsonfile v0.1.0 h1:a65VKR9okLjwiIdsBd95blQ7YQ1K7U4b1OCG2g6d/Is=
 github.com/brandonkramer/jsonfile v0.1.0/go.mod h1:pLGl+RjNkCjh+aa4+NI2HYo4NpEv1qipkbVw5JX0Db0=
-github.com/brandonkramer/message v0.1.0 h1:xIkxZgchMt+nePlLKHaMLdTR2DrJAVR2Aecu8qQD9Tw=
-github.com/brandonkramer/message v0.1.0/go.mod h1:6AEDa4EeoNxo6E2R6yurphVky7vms3M7T1q0wbuEfbQ=
 github.com/brandonkramer/message v0.1.1 h1:ohyDAia6GLdr2t/coNDX1ScMPJHloKQpE3lG/Khq434=
 github.com/brandonkramer/message v0.1.1/go.mod h1:+kwrzFzWOPZIbGtcBG9DbAw5k34ik16dHd4/65uyBos=
 github.com/brandonkramer/poll v0.1.0 h1:17vsYrt2UZwoH7M59vIpLH49+1aZqrQLvQXTSC6Sa4w=
