@@ -5,5 +5,5 @@
 //   - runtime: lock, listen, accept loop, observe HTTP
 //   - client: dial, spawn, JSON-RPC calls, observe reads
 //   - observe: versioned observe-channel topic names
-//   - runenv: child process environment helpers
+//   - runenv: child process environment and run-id verification helpers
 package locdaemon

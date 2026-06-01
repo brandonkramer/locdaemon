@@ -7,6 +7,8 @@ require (
 	github.com/brandonkramer/ipc v0.2.0
 	github.com/brandonkramer/message v0.1.1
 	github.com/brandonkramer/poll v0.1.0
+	github.com/brandonkramer/procenv v0.1.0
+	github.com/brandonkramer/proctree v0.1.2
 	github.com/brandonkramer/svcroot v0.1.3
 	github.com/creachadair/jrpc2 v1.3.5
 	golang.org/x/sync v0.20.0

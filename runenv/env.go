@@ -1,4 +1,4 @@
-// Package runenv builds child process environments for local daemons.
+// Package runenv builds child process environments and verifies run ownership.
 package runenv
 
 import "os"

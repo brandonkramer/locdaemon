@@ -128,6 +128,10 @@ github.com/brandonkramer/message v0.1.1 h1:ohyDAia6GLdr2t/coNDX1ScMPJHloKQpE3lG/
 github.com/brandonkramer/message v0.1.1/go.mod h1:+kwrzFzWOPZIbGtcBG9DbAw5k34ik16dHd4/65uyBos=
 github.com/brandonkramer/poll v0.1.0 h1:17vsYrt2UZwoH7M59vIpLH49+1aZqrQLvQXTSC6Sa4w=
 github.com/brandonkramer/poll v0.1.0/go.mod h1:GQh2DsbybhTWQ8qGD2hS5RMEDtcoJeG6VcSxQs7f1oQ=
+github.com/brandonkramer/procenv v0.1.0 h1:U7LateEZw1S5q0ocsUHee3uZebdHuNwxznyUeuZW4Jw=
+github.com/brandonkramer/procenv v0.1.0/go.mod h1:DG6IyZxgvXSabS6S+NUISX3m2LvZ6silVvWqjr94h3Y=
+github.com/brandonkramer/proctree v0.1.2 h1:xidtXtGb5cRf/xhl8Owl0BWMOTAG8atB4Tc/wnbdCRc=
+github.com/brandonkramer/proctree v0.1.2/go.mod h1:wvXLJJoJOfkzCN2F2TU9SbrTTSVa0Sqzsfys41lthqA=
 github.com/brandonkramer/svcroot v0.1.3 h1:5So8x87SpQovbno5b1y2pE1AOU+YolAIrelNtyoIsQY=
 github.com/brandonkramer/svcroot v0.1.3/go.mod h1:gVHBjWCjDz1s/hERZU/wIcd/W+9pytSk1xfuNr5suKc=
 github.com/breml/bidichk v0.3.3 h1:WSM67ztRusf1sMoqH6/c4OBCUlRVTKq+CbSeo0R17sE=
