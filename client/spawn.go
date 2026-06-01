@@ -19,6 +19,9 @@ const (
 	DefaultPollInterval = 100 * time.Millisecond
 )
 
+// ErrStartTimeout is returned when the daemon does not become ready before StartTimeout elapses.
+var ErrStartTimeout = errors.New("locdaemon: daemon start timeout")
+
 // SpawnOptions configures EnsureRunning.
 type SpawnOptions struct {
 	Home         string
@@ -81,7 +84,7 @@ func EnsureRunning(ctx context.Context, opt SpawnOptions) error {
 		return nil
 	}
 	if errors.Is(err, poll.ErrTimeout) {
-		return fmt.Errorf("locdaemon: daemon failed to start within %s", startTimeout)
+		return fmt.Errorf("%w after %s", ErrStartTimeout, startTimeout)
 	}
 	return err
 }
