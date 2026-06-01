@@ -4,7 +4,7 @@ go 1.26.3
 
 require (
 	github.com/brandonkramer/filelock v0.1.0
-	github.com/brandonkramer/ipc v0.1.0
+	github.com/brandonkramer/ipc v0.2.0
 	github.com/brandonkramer/message v0.1.0
 	github.com/brandonkramer/poll v0.1.0
 	github.com/brandonkramer/svcroot v0.1.3
@@ -254,14 +254,6 @@ require (
 	honnef.co/go/tools v0.7.0 // indirect
 	mvdan.cc/gofumpt v0.9.2 // indirect
 	mvdan.cc/unparam v0.0.0-20251027182757-5beb8c8f8f15 // indirect
-)
-
-replace (
-	github.com/brandonkramer/filelock => ../filelock
-	github.com/brandonkramer/ipc => ../ipc
-	github.com/brandonkramer/message => ../message
-	github.com/brandonkramer/poll => ../poll
-	github.com/brandonkramer/svcroot => ../svcroot
 )
 
 tool (
