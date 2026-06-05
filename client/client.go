@@ -1,5 +1,6 @@
-// Package client dials the local daemon, invokes JSON-RPC methods, and reads
-// versioned observe-channel envelopes.
+// Package client dials the local daemon, invokes JSON-RPC methods, relays
+// stdin/stdout to the daemon socket (ServeStdioBridge), and reads versioned
+// observe-channel envelopes.
 package client
 
 import (
